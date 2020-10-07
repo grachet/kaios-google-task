@@ -3,7 +3,7 @@
   "name": "Google Task",
   "description": "Task list",
   "type": "web",
-  "launch_path": "/kaios-google-task/index.html",
+  "launch_path": "/",
   "icons": {
     "56": "/kaios-google-task/assets/icons/task_logo_56.png",
     "112": "/kaios-google-task/assets/icons/task_logo_112.png",
@@ -30,6 +30,5 @@
       "to": "./index.html"
     }
   ],
-  "cursor": true,
   "default_locale": "en-US"
 }
