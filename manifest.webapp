@@ -25,7 +25,7 @@
     {
       "from": "http://localhost:3000",
       "to": "./index.html"
-    },
+    }
   ],
   "default_locale": "en-US"
 }
