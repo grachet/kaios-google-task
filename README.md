@@ -33,6 +33,7 @@ open build folder
 adb forward tcp:6000 localfilesystem:/data/local/debugger-socket
 
 webIDE-> remote runtime
+webIDE-> remote hosted https://grachet.github.io/kaios-google-task/manifest.webapp
 
 ## Send the app to a KaiOS device
 

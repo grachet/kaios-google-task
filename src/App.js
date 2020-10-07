@@ -1,30 +1,33 @@
 import React, { useEffect, useState } from "react";
+import config from "./config.json"
 import { Header, Input, Softkey, ToDos } from "./components";
 import { useNavigation } from "./hooks";
 // import taskService from "./service/taskService";
 import { useGoogleLogin } from 'react-google-login'
+import { isLocalhost } from "./service/helperFunctions";
 
 export default function App() {
 
   const [isSignedIn, setSignedIn] = useState(false);
 
   const { signIn, loaded } = useGoogleLogin({
-    clientId: config.clientI,
+    clientId: config.web.client_id,
     onSuccess: (rep) => {
       console.log(rep)
+      setSignedIn(true)
     },
     // onAutoLoadFinished,
     // clientId,
-    cookiePolicy: "none",
+    // cookiePolicy: "none",
     // loginHint,
     // hostedDomain,
     // autoLoad,
     isSignedIn: true,
     // fetchBasicProfile,
-    redirectUri: "http://localhost:3000",
+    redirectUri: !!isLocalhost ? "http://localhost:3000" : "https://grachet.github.io/kaios-google-task",
     // discoveryDocs,
-    onFailure: (rep) => {
-      console.log(rep)
+    onFailure: (error) => {
+      console.error(error)
     },
     uxMode: "redirect",
     scope: 'https://www.googleapis.com/auth/tasks',
