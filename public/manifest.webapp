@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "GTask Lite",
-  "description": "Reader for google task memo. You can only read/check/uncheck",
+  "description": "Reader for google task. You can only read/check/uncheck. You need to edit on another device (computer).",
   "type": "web",
   "launch_path": "/kaios-google-task/",
   "icons": {
