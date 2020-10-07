@@ -1,14 +1,14 @@
 {
   "version": "1.0.0",
-  "name": "Google Task",
-  "description": "Task list",
+  "name": "GTask Lite",
+  "description": "Reader for google task memo. You can only read/check/uncheck",
   "type": "web",
   "launch_path": "/kaios-google-task/",
   "icons": {
     "56": "/kaios-google-task/assets/icons/task_logo_56.png",
     "112": "/kaios-google-task/assets/icons/task_logo_112.png",
     "128": "/kaios-google-task/assets/icons/task_logo_128.png",
-    "300": "/kaios-google-task/assets/icons/task_logo_300.png"
+    "360": "/kaios-google-task/assets/icons/task_logo_360.png"
   },
   "developer": {
     "name": "Guillaume Rachet",
