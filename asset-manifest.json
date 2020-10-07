@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kaios-google-task/static/css/main.ffec8c4d.chunk.css",
-    "main.js": "/kaios-google-task/static/js/main.44e23eeb.chunk.js",
-    "main.js.map": "/kaios-google-task/static/js/main.44e23eeb.chunk.js.map",
+    "main.css": "/kaios-google-task/static/css/main.68e076ea.chunk.css",
+    "main.js": "/kaios-google-task/static/js/main.7f60763d.chunk.js",
+    "main.js.map": "/kaios-google-task/static/js/main.7f60763d.chunk.js.map",
     "runtime~main.js": "/kaios-google-task/static/js/runtime~main.e6931bc3.js",
     "runtime~main.js.map": "/kaios-google-task/static/js/runtime~main.e6931bc3.js.map",
-    "static/js/2.ace9de64.chunk.js": "/kaios-google-task/static/js/2.ace9de64.chunk.js",
-    "static/js/2.ace9de64.chunk.js.map": "/kaios-google-task/static/js/2.ace9de64.chunk.js.map",
+    "static/js/2.bd7dd761.chunk.js": "/kaios-google-task/static/js/2.bd7dd761.chunk.js",
+    "static/js/2.bd7dd761.chunk.js.map": "/kaios-google-task/static/js/2.bd7dd761.chunk.js.map",
     "index.html": "/kaios-google-task/index.html",
-    "precache-manifest.9ba34759451a3bf4588067e4ae4dd421.js": "/kaios-google-task/precache-manifest.9ba34759451a3bf4588067e4ae4dd421.js",
+    "precache-manifest.7494ac1539b0dc770cd44f0d2a5edad5.js": "/kaios-google-task/precache-manifest.7494ac1539b0dc770cd44f0d2a5edad5.js",
     "service-worker.js": "/kaios-google-task/service-worker.js",
-    "static/css/main.ffec8c4d.chunk.css.map": "/kaios-google-task/static/css/main.ffec8c4d.chunk.css.map",
+    "static/css/main.68e076ea.chunk.css.map": "/kaios-google-task/static/css/main.68e076ea.chunk.css.map",
     "static/media/CheckboxListItem.scss": "/kaios-google-task/static/media/kai-icons.686d74df.eot"
   }
 }
