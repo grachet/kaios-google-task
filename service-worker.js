@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kaios-google-task/precache-manifest.d3864347201605c1736c8bd0ccae37e4.js"
+  "/kaios-google-task/precache-manifest.7c3f1f76b0a309daf8dfd97f53f9f5a0.js"
 );
 
 self.addEventListener('message', (event) => {

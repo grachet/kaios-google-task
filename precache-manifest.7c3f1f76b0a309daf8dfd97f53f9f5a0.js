@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50c7a99666021fa57ddb28169814ccc3",
+    "revision": "b59f1f56c5db2ef61c6bcd6c582b2872",
     "url": "/kaios-google-task/index.html"
   },
   {
