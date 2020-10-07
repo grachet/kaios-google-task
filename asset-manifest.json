@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kaios-google-task/static/css/main.b243b623.chunk.css",
-    "main.js": "/kaios-google-task/static/js/main.f99f27e9.chunk.js",
-    "main.js.map": "/kaios-google-task/static/js/main.f99f27e9.chunk.js.map",
+    "main.js": "/kaios-google-task/static/js/main.beb39570.chunk.js",
+    "main.js.map": "/kaios-google-task/static/js/main.beb39570.chunk.js.map",
     "runtime~main.js": "/kaios-google-task/static/js/runtime~main.e6931bc3.js",
     "runtime~main.js.map": "/kaios-google-task/static/js/runtime~main.e6931bc3.js.map",
     "static/js/2.f942d3fb.chunk.js": "/kaios-google-task/static/js/2.f942d3fb.chunk.js",
     "static/js/2.f942d3fb.chunk.js.map": "/kaios-google-task/static/js/2.f942d3fb.chunk.js.map",
     "index.html": "/kaios-google-task/index.html",
-    "precache-manifest.db2fd8b2b5cf7193f2f3402d20298fb8.js": "/kaios-google-task/precache-manifest.db2fd8b2b5cf7193f2f3402d20298fb8.js",
+    "precache-manifest.e635af4c624e8904f805f041809af9c1.js": "/kaios-google-task/precache-manifest.e635af4c624e8904f805f041809af9c1.js",
     "service-worker.js": "/kaios-google-task/service-worker.js",
     "static/css/main.b243b623.chunk.css.map": "/kaios-google-task/static/css/main.b243b623.chunk.css.map"
   }
