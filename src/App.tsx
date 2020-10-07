@@ -19,7 +19,6 @@ function App() {
   const { signIn, loaded } = useGoogleLogin({
     clientId: config.client_id,
     onSuccess: async (rep) => {
-      console.log(rep)
       await taskService.init()
       setTaskList(await taskService.getAllTaskList())
       setSignedIn(true)
@@ -35,10 +34,8 @@ function App() {
   })
 
   useEffect(() => {
-    loaded && signIn()
+    !isSignedIn && loaded && signIn()
   }, []);
-
-  console.log(taskList)
 
   const App = () => {
     const { showToast } = useContext(ToastContext);
@@ -66,7 +63,9 @@ function App() {
                       taskListId: list.id,
                       taskId: task.id,
                       status: isChecked ? "completed" : "needsAction"
-                    }).catch(err => showToast("Fail to update GTask", 5000))}
+                    }).then(rep => showToast("GTask updated", 5000))
+                      .catch(err => showToast("Fail to update GTask", 5000))
+                    }
                   />)
                 }
               </ListView>
