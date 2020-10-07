@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kaios-google-task/static/css/main.ffec8c4d.chunk.css",
-    "main.js": "/kaios-google-task/static/js/main.ab3a7243.chunk.js",
-    "main.js.map": "/kaios-google-task/static/js/main.ab3a7243.chunk.js.map",
+    "main.js": "/kaios-google-task/static/js/main.4423403f.chunk.js",
+    "main.js.map": "/kaios-google-task/static/js/main.4423403f.chunk.js.map",
     "runtime~main.js": "/kaios-google-task/static/js/runtime~main.e6931bc3.js",
     "runtime~main.js.map": "/kaios-google-task/static/js/runtime~main.e6931bc3.js.map",
-    "static/js/2.c3c640af.chunk.js": "/kaios-google-task/static/js/2.c3c640af.chunk.js",
-    "static/js/2.c3c640af.chunk.js.map": "/kaios-google-task/static/js/2.c3c640af.chunk.js.map",
+    "static/js/2.643c1545.chunk.js": "/kaios-google-task/static/js/2.643c1545.chunk.js",
+    "static/js/2.643c1545.chunk.js.map": "/kaios-google-task/static/js/2.643c1545.chunk.js.map",
     "index.html": "/kaios-google-task/index.html",
-    "precache-manifest.bc4ce5ce09e4c76ac2b0512f94deab56.js": "/kaios-google-task/precache-manifest.bc4ce5ce09e4c76ac2b0512f94deab56.js",
+    "precache-manifest.d9ad5f1094c76921abad3863d96b223f.js": "/kaios-google-task/precache-manifest.d9ad5f1094c76921abad3863d96b223f.js",
     "service-worker.js": "/kaios-google-task/service-worker.js",
     "static/css/main.ffec8c4d.chunk.css.map": "/kaios-google-task/static/css/main.ffec8c4d.chunk.css.map",
     "static/media/CheckboxListItem.scss": "/kaios-google-task/static/media/kai-icons.686d74df.eot"
