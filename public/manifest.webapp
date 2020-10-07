@@ -17,13 +17,6 @@
   "categories": [
   "utilities"
   ], 
-  "locales": {
-    "en-US": {
-      "name": "Google Task",
-      "subtitle": "Task list",
-      "description": "Task list"
-    }
-  },
   "installs_allowed_from": [
     "*"
   ],
