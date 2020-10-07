@@ -40,6 +40,8 @@ export default function App() {
     <>
       {!!isLocalhost && <button onClick={() => sign()}>Sign</button>}
 
+      {JSON.stringify(taskList)}
+
       <Softkey
         left={isSignedIn ? null : "Sign In"}
         onKeyLeft={() => {
