@@ -43,6 +43,8 @@ input {
   --color-violet: #c40c84;
   --color-carrotorange: #eb9423;
   --color-wathetblue: #005da5;
+  --color-googleblue:#4A8AF8;
+  
 
   /* gold */
   --color-gold: #ffa000;
@@ -65,7 +67,7 @@ input {
   --color-gs00: #ffffff;
 
   /* Primary Colors - Best for Highlighting selected UI element */
-  --color-purple: #873eff;
+  --color-purple: #4A8AF8;
   --color-pink: #f6529b;
   --color-lime: #82c51b;
   --color-cyan: #1cc1c4;
@@ -175,8 +177,8 @@ input {
   /** Brand Color
      ---------------------------------------------------------*/
 
-  --highlight-color: var(--color-purple);
-  --highlight-color-pressed: var(--color-purple-pressed);
+  --highlight-color: var(--color-googleblue);
+  --highlight-color-pressed: var(--color-googleblue-pressed);
 
   /** Header
      ---------------------------------------------------------*/

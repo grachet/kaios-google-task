@@ -42,7 +42,7 @@ function App() {
     return (
       <div className="App">
         {!taskList.length && <ProgressBar
-          header={'Fetching tasks...'}
+          header={''}
           percentage={30}
           type={"buffer"}
         />}
