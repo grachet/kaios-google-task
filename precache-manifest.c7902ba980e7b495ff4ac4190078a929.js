@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28d47a97ed8a8a458ab05ce384904be6",
+    "revision": "69d22e45dc8bf3406f3136a8fee14291",
     "url": "/kaios-google-task/index.html"
   },
   {
-    "revision": "5aa82e2e0d83693fcca1",
+    "revision": "adf82c487b46b0ca079d",
     "url": "/kaios-google-task/static/css/main.68e076ea.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kaios-google-task/static/js/2.bd7dd761.chunk.js"
   },
   {
-    "revision": "5aa82e2e0d83693fcca1",
-    "url": "/kaios-google-task/static/js/main.ebd6040f.chunk.js"
+    "revision": "adf82c487b46b0ca079d",
+    "url": "/kaios-google-task/static/js/main.5dec0291.chunk.js"
   },
   {
     "revision": "100d7fd0faed5ee7e314",
