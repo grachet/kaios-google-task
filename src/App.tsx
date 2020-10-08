@@ -65,10 +65,10 @@ function App() {
                         taskId: task.id,
                         status: isChecked ? "completed" : "needsAction"
                       }).then(rep => {
-                        showToast("GTask updated", 1000)
+                        showToast("Google Task updated", 1000)
                       })
                         .catch(err => {
-                          showToast("Fail to update GTask", 1000)
+                          showToast("Fail to update Google Task", 1000)
                         })
                     }}
                   />)

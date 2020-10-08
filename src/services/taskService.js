@@ -36,17 +36,6 @@ class TaskService {
         return this.makeRequest(request);
     }
 
-
-    makeRequest(requestObj) {
-        return new Promise((resolve, reject) => {
-            requestObj.execute(resp =>
-                resp.error
-                    ? reject(resp.error)
-                    : resolve(resp.result));
-        });
-    }
-
-
     updateTask({ taskListId, taskId, ...params }) {
         const request = window.gapi.client.tasks.tasks.update({
             tasklist: taskListId,
@@ -58,6 +47,15 @@ class TaskService {
         return this.makeRequest(request);
     }
 
+
+    makeRequest(requestObj) {
+        return new Promise((resolve, reject) => {
+            requestObj.execute(resp =>
+                resp.error
+                    ? reject(resp.error)
+                    : resolve(resp.result));
+        });
+    }
 
     // insertTaskList({ title }) {
     //     const request = window.gapi.client.tasks.tasklists.insert({ title });

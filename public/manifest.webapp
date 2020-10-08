@@ -1,14 +1,15 @@
 {
   "version": "1.0.0",
-  "name": "GTask Lite",
+  "name": "TasksBoard",
   "description": "Reader for google task. You can only read/check/uncheck. You need to edit on another device (computer).",
   "type": "web",
   "launch_path": "/kaios-google-task/",
   "icons": {
-    "56": "/kaios-google-task/assets/icons/task_logo_56.png",
-    "112": "/kaios-google-task/assets/icons/task_logo_112.png",
-    "128": "/kaios-google-task/assets/icons/task_logo_128.png",
-    "360": "/kaios-google-task/assets/icons/task_logo_360.png"
+    "56": "/kaios-google-task/assets/icons/tasksboard_logo_56.png",
+    "112": "/kaios-google-task/assets/icons/tasksboard_logo_112.png",
+    "128": "/kaios-google-task/assets/icons/tasksboard_logo_128.png",
+    "300": "/kaios-google-task/assets/icons/tasksboard_logo_300.png",
+    "650": "/kaios-google-task/assets/icons/tasksboard_logo_650.png"
   },
   "developer": {
     "name": "Guillaume Rachet",
