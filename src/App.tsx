@@ -42,7 +42,7 @@ function App() {
     return (
       <div className="App">
         {!taskList.length && <ProgressBar
-          header={'Loading...'}
+          header={'Fetching tasks...'}
           percentage={30}
           type={"buffer"}
         />}
@@ -58,14 +58,19 @@ function App() {
                     primary={task.title}
                     initCheckboxVal={task.status === "completed"}
                     checkboxSide="left"
-                    onInputChange={(isChecked) => taskService.updateTask({
-                      ...task,
-                      taskListId: list.id,
-                      taskId: task.id,
-                      status: isChecked ? "completed" : "needsAction"
-                    }).then(rep => showToast("GTask updated", 5000))
-                      .catch(err => showToast("Fail to update GTask", 5000))
-                    }
+                    onInputChange={(isChecked) => {
+                      taskService.updateTask({
+                        ...task,
+                        taskListId: list.id,
+                        taskId: task.id,
+                        status: isChecked ? "completed" : "needsAction"
+                      }).then(rep => {
+                        showToast("GTask updated", 1000)
+                      })
+                        .catch(err => {
+                          showToast("Fail to update GTask", 1000)
+                        })
+                    }}
                   />)
                 }
               </ListView>

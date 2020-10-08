@@ -7,19 +7,19 @@ import { SoftKeyContextProps } from '../SoftKey/SoftKeyProvider';
 const prefixCls = 'kai-cbl';
 
 interface LocalProps {
-  id?:string;
+  id?: string;
   primary: string;
-  secondary?:string;
-  initCheckboxVal?:boolean;
+  secondary?: string;
+  initCheckboxVal?: boolean;
   onInputChange?: (checked: any) => void;
   checkboxSide?: "left" | "right";
-  focusColor?:string;
+  focusColor?: string;
   onFocusChange?: (index: number) => void;
   index?: number;
-  forwardedRef?:any;
+  forwardedRef?: any;
   softKeyManager?: SoftKeyContextProps;
-  softKeyCheckedText?:string;
-  softKeyUncheckedText?:string;
+  softKeyCheckedText?: string;
+  softKeyUncheckedText?: string;
   softKeyCheckedIcon?: any;
   softKeyUncheckedIcon?: any;
 }
@@ -49,9 +49,8 @@ const CheckboxListItem = React.memo<LocalProps>(props => {
 
   const itemCls = prefixCls;
   const boxCls = `${prefixCls}-box`;
-  const lineCls = `${prefixCls}-line ${
-    checkboxSide === 'left' ? 'right' : 'left'
-  }`;
+  const lineCls = `${prefixCls}-line ${checkboxSide === 'left' ? 'right' : 'left'
+    }`;
   const primaryCls = `${prefixCls}-primary`;
   const secondaryCls = `${prefixCls}-secondary ${secondary ? '' : 'hidden'}`;
   const inputCls = `${boxCls}-input-${isFocused ? 'focused' : 'unfocused'}`;
@@ -76,11 +75,16 @@ const CheckboxListItem = React.memo<LocalProps>(props => {
     softKeyUncheckedIcon,
   ]);
 
-  const handleInvertCheck = () => setChecked(wasChecked => !wasChecked);
+  const handleInvertCheck = () => {
+    if (onInputChange) {
+      onInputChange(!isChecked);
+    }
+    setChecked(wasChecked => !wasChecked);
+  }
 
   const handleInputChange = (e) => {
     setChecked(e.target.checked);
-    if(onInputChange) {
+    if (onInputChange) {
       onInputChange(e.target.checked);
     }
   };
@@ -136,6 +140,7 @@ const CheckboxListItem = React.memo<LocalProps>(props => {
         tabIndex={-1}
         type="checkbox"
         checked={isChecked}
+        onChange={handleInputChange}
         onFocus={handleCheckFocus}
         onClick={handleInputChange}
       />

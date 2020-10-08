@@ -9,7 +9,7 @@ const Button = props => {
 
   const handleButtonClick = e => {
     e.preventDefault();
-    if(handleClick) {
+    if (handleClick) {
       handleClick();
     }
   };
@@ -26,13 +26,13 @@ const Button = props => {
     }
   };
 
-  let renderedIcon:any|undefined;
-  if(icon){
-    if(React.isValidElement(icon)) {
+  let renderedIcon: any | undefined;
+  if (icon) {
+    if (React.isValidElement(icon)) {
       renderedIcon = icon;
     }
-    else if(icon.toString().indexOf("kai-") === -1) {
-      renderedIcon = <img src={icon} width={20} height={20}/>
+    else if (icon.toString().indexOf("kai-") === -1) {
+      renderedIcon = <img alt="img" src={icon} width={20} height={20} />
     }
     else {
       renderedIcon = <span className={icon} />;
@@ -82,18 +82,18 @@ const SoftKey = React.memo<SoftKeyProps>(props => {
     e => {
       switch (e.key) {
         case 'SoftLeft':
-          if(leftCallback) {
+          if (leftCallback) {
             leftCallback();
           }
           break;
         case 'SoftRight':
-          if(rightCallback) {
+          if (rightCallback) {
             rightCallback();
           }
           break;
         case 'Enter':
           // Action case press center key
-          if(centerCallback) {
+          if (centerCallback) {
             centerCallback();
           }
           break;
@@ -111,11 +111,11 @@ const SoftKey = React.memo<SoftKeyProps>(props => {
 
   return (
     <div className={`${prefixCls} visible`}>
-      <Button 
+      <Button
         id="leftSoftKey"
-        pos="left" 
-        text={leftText} 
-        icon={leftIcon} 
+        pos="left"
+        text={leftText}
+        icon={leftIcon}
         handleClick={leftCallback} />
       <Button
         id="centerSoftKey"
@@ -124,11 +124,11 @@ const SoftKey = React.memo<SoftKeyProps>(props => {
         icon={centerIcon}
         handleClick={centerCallback}
       />
-      <Button 
+      <Button
         id="rightSoftKey"
-        pos="right" 
-        text={rightText} 
-        icon={rightIcon} 
+        pos="right"
+        text={rightText}
+        icon={rightIcon}
         handleClick={rightCallback} />
     </div>
   );
