@@ -19,6 +19,14 @@ In landscape devices
 npm start
 ```
 
+https://console.developers.google.com/apis/credentials?project=kaios-task-app
+ID clients OAuth 2.0 -> Github page -> donwload icon
+
+rename config.json and remove web key
+put in /src/services
+
+
+
 ## Build app
 
 
