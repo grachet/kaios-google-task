@@ -1,5 +1,5 @@
 
-# Tasksboards : Google Task for KaiOS (firefox OS)
+# Tasksboards : Google Task for KaiOS
 
 Simple reader for google task. You can only read/check/uncheck. You need to edit on another device (computer).
 
