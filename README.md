@@ -16,9 +16,11 @@ https://grachet.github.io/kaios-google-task/
 ## Start
 
 https://console.developers.google.com/apis/credentials?project=kaios-task-app
+
 ID clients OAuth 2.0 -> Github page -> donwload config file
 
 rename config.json and remove web key
+
 put in /src/services
 
 ```console
@@ -41,14 +43,8 @@ Install [adb](https://dl.google.com/android/repository/platform-tools-latest-win
 adb forward tcp:6000 localfilesystem:/data/local/debugger-socket
 ```
 
-
 [firefox 59](https://ftp.mozilla.org/pub/firefox/releases/59.0/win64/en-US/) -> develloper menu -> webIDE
 
 open hosted app -> https://grachet.github.io/kaios-google-task/manifest.webapp
 
-webIDE-> remote runtime
-
-## Send the app to a KaiOS device
-
-follow [os-env-setup](https://developer.kaiostech.com/getting-started/env-setup/os-env-setup) and [test-your-apps](https://developer.kaiostech.com/getting-started/build-your-first-package-app/test-your-apps)
-install to your device.
+webIDE -> remote runtime
