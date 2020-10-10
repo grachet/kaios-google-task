@@ -5,7 +5,8 @@ Simple reader for google task. You can only read/check/uncheck. You need to edit
 
 Google task is a todo list manager.
 
-KaiOS is a mobile operating system based Firefox OS with 100 million devices worldwide (third mobile OS after Android and IOS)
+KaiOS is a mobile operating system based Firefox OS with 100 million devices worldwide (third mobile OS after Android and IOS).
+
 It bring smartphone features to non-touch feature phone with 300*240px screen. 
 
 You can access with the website but it's not done for smartphone/computer screen.
