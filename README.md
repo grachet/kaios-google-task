@@ -9,7 +9,7 @@ KaiOS is a mobile operating system based Firefox OS with 100 million devices wor
 
 It bring smartphone features to non-touch feature phone with 300*240px screen. 
 
-You can access with the website but it's not done for smartphone/computer screen.
+You can open the app with the website but it's not done for smartphone/computer screen.
 
 https://grachet.github.io/kaios-google-task/
 
