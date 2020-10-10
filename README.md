@@ -17,7 +17,7 @@ https://grachet.github.io/kaios-google-task/
 
 https://console.developers.google.com/apis/credentials?project=kaios-task-app
 
-ID clients OAuth 2.0 -> Github page -> donwload config file
+ID clients OAuth 2.0 -> Github page -> download config file
 
 rename config.json and remove web key
 
@@ -43,7 +43,7 @@ Install [adb](https://dl.google.com/android/repository/platform-tools-latest-win
 adb forward tcp:6000 localfilesystem:/data/local/debugger-socket
 ```
 
-[firefox 59](https://ftp.mozilla.org/pub/firefox/releases/59.0/win64/en-US/) -> develloper menu -> webIDE
+[firefox 59](https://ftp.mozilla.org/pub/firefox/releases/59.0/win64/en-US/) -> developer menu -> webIDE
 
 open hosted app -> https://grachet.github.io/kaios-google-task/manifest.webapp
 
