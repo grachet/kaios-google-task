@@ -3,13 +3,13 @@
 
 Simple reader for google task. You can only read/check/uncheck. You need to edit on another device (computer).
 
-Google task is a todo list manager.
+Google task is a to-do list manager.
 
 KaiOS is a mobile operating system based Firefox OS with 100 million devices worldwide (third mobile OS after Android and IOS).
 
-It bring smartphone features to non-touch feature phone with 300*240px screen. 
+It brings smartphone features to non-touch feature phone with 300*240px screen. 
 
-You can open the app with the website but it's not done for smartphone/computer screen.
+You can open the app with the website, but it's not done for smartphone/computer screen.
 
 https://grachet.github.io/kaios-google-task/
 
