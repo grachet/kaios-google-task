@@ -9,10 +9,6 @@ KaiOS is a mobile operating system based Firefox OS with 100 million devices wor
 
 It brings smartphone features to non-touch feature phone with 300*240px screen. 
 
-You can open the app with the website, but it's not done for smartphone/computer screen.
-
-https://grachet.github.io/kaios-google-task/
-
 ## Start
 
 https://console.developers.google.com/apis/credentials?project=kaios-task-app
@@ -45,6 +41,5 @@ adb forward tcp:6000 localfilesystem:/data/local/debugger-socket
 
 [firefox 59](https://ftp.mozilla.org/pub/firefox/releases/59.0/win64/en-US/) -> developer menu -> webIDE
 
-open hosted app -> https://grachet.github.io/kaios-google-task/manifest.webapp
 
 webIDE -> remote runtime
